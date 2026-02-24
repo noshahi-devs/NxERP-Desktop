@@ -1,0 +1,20 @@
+﻿NxERP
+1.4.1.0
+
+winexe
+C#
+.cs
+D:\Adeel\Learning\Small Desktop\HelloWpf\obj\Release\net9.0-windows\win-x64\
+HelloWpf
+none
+false
+TRACE;RELEASE;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\Adeel\Learning\Small Desktop\HelloWpf\App.xaml
+8-930871789
+
+241050494981
+2041371076830
+LoginWindow.xaml;MainWindow.xaml;Pages\AccountsPage.xaml;Pages\DashboardPage.xaml;Pages\InventoryPage.xaml;Pages\PurchasePage.xaml;Pages\ReportsPage.xaml;Pages\SalesPage.xaml;
+
+False
+

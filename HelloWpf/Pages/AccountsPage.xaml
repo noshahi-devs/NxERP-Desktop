@@ -1,0 +1,27 @@
+<UserControl x:Class="HelloWpf.Pages.AccountsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock FontSize="28" FontWeight="Bold" Foreground="#111827" Text="Accounts" />
+        <WrapPanel Grid.Row="1" Margin="0,14,0,14">
+            <Button Content="Journal Entry" Padding="12,7" Margin="0,0,10,0" Background="#7C3AED" Foreground="White" BorderBrush="#7C3AED" />
+            <Button Content="Receivables" Padding="12,7" Margin="0,0,10,0" Background="White" BorderBrush="#D1D5DB" />
+            <Button Content="Payables" Padding="12,7" Background="White" BorderBrush="#D1D5DB" />
+        </WrapPanel>
+
+        <Border Grid.Row="2" Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="8" Padding="12">
+            <StackPanel>
+                <TextBlock FontSize="16" FontWeight="SemiBold" Text="Summary" />
+                <TextBlock Margin="0,8,0,0" Foreground="#4B5563" Text="Cash in Hand: $7,850" />
+                <TextBlock Margin="0,6,0,0" Foreground="#4B5563" Text="Total Receivables: $15,400" />
+                <TextBlock Margin="0,6,0,0" Foreground="#4B5563" Text="Total Payables: $9,300" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

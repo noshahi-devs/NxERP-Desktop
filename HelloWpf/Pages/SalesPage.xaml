@@ -1,0 +1,27 @@
+<UserControl x:Class="HelloWpf.Pages.SalesPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock FontSize="28" FontWeight="Bold" Foreground="#111827" Text="Sales" />
+        <WrapPanel Grid.Row="1" Margin="0,14,0,14">
+            <Button Content="New Invoice" Padding="12,7" Margin="0,0,10,0" Background="#1D4ED8" Foreground="White" BorderBrush="#1D4ED8" />
+            <Button Content="Customers" Padding="12,7" Margin="0,0,10,0" Background="White" BorderBrush="#D1D5DB" />
+            <Button Content="Sales Return" Padding="12,7" Background="White" BorderBrush="#D1D5DB" />
+        </WrapPanel>
+
+        <Border Grid.Row="2" Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="8" Padding="12">
+            <StackPanel>
+                <TextBlock FontSize="16" FontWeight="SemiBold" Text="Recent Sales" />
+                <TextBlock Margin="0,8,0,0" Foreground="#4B5563" Text="INV-1021 | Alpha Traders | $2,450" />
+                <TextBlock Margin="0,6,0,0" Foreground="#4B5563" Text="INV-1020 | Hamza Mart | $1,980" />
+                <TextBlock Margin="0,6,0,0" Foreground="#4B5563" Text="INV-1019 | Noor Distributors | $3,120" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

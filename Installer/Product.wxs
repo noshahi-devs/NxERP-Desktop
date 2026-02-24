@@ -1,0 +1,57 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs"
+     xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
+  <Package Name="NxERP"
+           Manufacturer="Open Source"
+           Version="1.4.1"
+           UpgradeCode="{6fcbbb97-10e2-4710-976a-4434f6dd1bd3}"
+           Scope="perMachine">
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes" />
+
+    <StandardDirectory Id="ProgramFiles64Folder">
+      <Directory Id="INSTALLFOLDER" Name="NxERP" />
+    </StandardDirectory>
+    <StandardDirectory Id="ProgramMenuFolder">
+      <Directory Id="ProgramMenuDir" Name="NxERP" />
+    </StandardDirectory>
+
+    <Feature Id="MainFeature" Title="NxERP" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+
+    <ui:WixUI Id="WixUI_InstallDir" />
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <WixVariable Id="WixUIBannerBmp" Value="Branding\NxERP-Banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Branding\NxERP-Dialog.bmp" />
+  </Package>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Files Include="publish\\**" />
+      <Component Id="ShortcutsComponent" Guid="*">
+        <Shortcut Id="DesktopShortcut"
+                  Directory="DesktopFolder"
+                  Name="NxERP"
+                  Description="NxERP Open Source"
+                  Target="[INSTALLFOLDER]NxERP.exe"
+                  WorkingDirectory="INSTALLFOLDER"
+                  Advertise="no" />
+        <Shortcut Id="StartMenuShortcut"
+                  Directory="ProgramMenuDir"
+                  Name="NxERP"
+                  Description="NxERP Open Source"
+                  Target="[INSTALLFOLDER]NxERP.exe"
+                  WorkingDirectory="INSTALLFOLDER"
+                  Advertise="no" />
+        <RemoveFolder Id="ProgramMenuDirCleanup" Directory="ProgramMenuDir" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\NxERP" Name="HasShortcuts" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+D:\Adeel\Learning\Small Desktop\Installer\obj\x64\Release\HelloWpfSetup.wixproj.CoreCompileInputs.cache
+D:\Adeel\Learning\Small Desktop\Installer\obj\x64\Release\HelloWpfSetup.msi
+D:\Adeel\Learning\Small Desktop\Installer\obj\x64\Release\HelloWpfSetup.wixpdb
+D:\Adeel\Learning\Small Desktop\Installer\obj\x64\Release\HelloWpfSetup.wixproj.BindTracking-neutral.txt
+D:\Adeel\Learning\Small Desktop\Installer\bin\x64\Release\HelloWpfSetup.msi
+D:\Adeel\Learning\Small Desktop\Installer\bin\x64\Release\HelloWpfSetup.wixpdb

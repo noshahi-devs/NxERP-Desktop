@@ -1,0 +1,27 @@
+<UserControl x:Class="HelloWpf.Pages.PurchasePage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock FontSize="28" FontWeight="Bold" Foreground="#111827" Text="Purchase" />
+        <WrapPanel Grid.Row="1" Margin="0,14,0,14">
+            <Button Content="New PO" Padding="12,7" Margin="0,0,10,0" Background="#047857" Foreground="White" BorderBrush="#047857" />
+            <Button Content="Suppliers" Padding="12,7" Margin="0,0,10,0" Background="White" BorderBrush="#D1D5DB" />
+            <Button Content="Goods Receipt" Padding="12,7" Background="White" BorderBrush="#D1D5DB" />
+        </WrapPanel>
+
+        <Border Grid.Row="2" Background="#F9FAFB" BorderBrush="#E5E7EB" BorderThickness="1" CornerRadius="8" Padding="12">
+            <StackPanel>
+                <TextBlock FontSize="16" FontWeight="SemiBold" Text="Pending Purchase Orders" />
+                <TextBlock Margin="0,8,0,0" Foreground="#4B5563" Text="PO-250 | Pak Suppliers | ETA: 2 days" />
+                <TextBlock Margin="0,6,0,0" Foreground="#4B5563" Text="PO-249 | Bright Wholesale | ETA: 4 days" />
+                <TextBlock Margin="0,6,0,0" Foreground="#4B5563" Text="PO-248 | New Trade Links | ETA: 5 days" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>
