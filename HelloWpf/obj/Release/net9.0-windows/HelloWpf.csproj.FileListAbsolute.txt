@@ -58,3 +58,4 @@ D:\Adeel\Learning\Small Desktop\HelloWpf\bin\Release\net9.0-windows\runtimes\win
 D:\Adeel\Learning\Small Desktop\HelloWpf\bin\Release\net9.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 D:\Adeel\Learning\Small Desktop\HelloWpf\bin\Release\net9.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 D:\Adeel\Learning\Small Desktop\HelloWpf\obj\Release\net9.0-windows\HelloWpf.csproj.Up2Date
+D:\Adeel\Learning\Small Desktop\HelloWpf\obj\Release\net9.0-windows\HelloWpf.sourcelink.json

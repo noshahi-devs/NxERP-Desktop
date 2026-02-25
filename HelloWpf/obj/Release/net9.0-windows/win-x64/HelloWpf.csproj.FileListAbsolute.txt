@@ -427,3 +427,4 @@ D:\Adeel\Learning\Small Desktop\HelloWpf\bin\Release\net9.0-windows\win-x64\SQLi
 D:\Adeel\Learning\Small Desktop\HelloWpf\bin\Release\net9.0-windows\win-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\Adeel\Learning\Small Desktop\HelloWpf\bin\Release\net9.0-windows\win-x64\e_sqlite3.dll
 D:\Adeel\Learning\Small Desktop\HelloWpf\obj\Release\net9.0-windows\win-x64\HelloWpf.csproj.AssemblyReference.cache
+D:\Adeel\Learning\Small Desktop\HelloWpf\obj\Release\net9.0-windows\win-x64\HelloWpf.sourcelink.json

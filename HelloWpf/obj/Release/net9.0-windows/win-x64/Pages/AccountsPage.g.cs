@@ -51,7 +51,7 @@ namespace HelloWpf.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/NxERP;V1.4.1.0;component/pages/accountspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/NxERP;V1.4.3.0;component/pages/accountspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Pages\AccountsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

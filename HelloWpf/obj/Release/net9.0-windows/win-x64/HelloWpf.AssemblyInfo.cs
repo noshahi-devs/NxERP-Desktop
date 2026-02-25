@@ -12,11 +12,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("NxERP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.4.3.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.4.3+a4425724e18d0ed593fc74919166998fdf83bedb")]
 [assembly: System.Reflection.AssemblyProductAttribute("NxERP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NxERP")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.4.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.4.3.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
